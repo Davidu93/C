@@ -32,7 +32,7 @@ int main()
 
 }
 
-void initialiser_matrice(float A[N][N])
+void initialiser_matrice(float A[N][N]) /* L'utilisateur entre les valeurs de la matrice A*/
 {
   int i,j;
   for(i=0;i<N;i++)
@@ -45,7 +45,7 @@ void initialiser_matrice(float A[N][N])
   }
 }
 
-void afficher_matrice(float A[N][N])
+void afficher_matrice(float A[N][N]) /* Affiche les coefficients de la matrice A */
 {
   int i,j;
   for(i=0;i<N;i++)
@@ -59,7 +59,7 @@ void afficher_matrice(float A[N][N])
   printf("\n");
 }
 
-void inverse(float A[N][N] , float det)
+void inverse(float A[N][N] , float det) /* Calcul l'inverse de la matrice A */
 {
   float tmp = A[0][0];
   A[0][1] = -A[0][1]/det;
