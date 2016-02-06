@@ -26,5 +26,5 @@ int main()
     }
     printf("%s est un palindrome\n",mots);
 
-	return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
