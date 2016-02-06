@@ -1,3 +1,4 @@
+/* Davidu93 */
 #include<stdlib.h>
 #include<stdio.h>
 
@@ -32,7 +33,7 @@ int main()
 
 }
 
-void initialiser_matrice(float A[N][N]) /* L'utilisateur entre les valeurs de la matrice A*/
+void initialiser_matrice(float A[N][N]) /* L'utilisateur entre les valeurs de la matrice A */
 {
   int i,j;
   for(i=0;i<N;i++)
