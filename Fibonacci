@@ -8,7 +8,7 @@ unsigned int fibo(unsigned int n);
 
 int main()
 {
-    int n,i;
+    int n;
     do{
         printf("Entrer un entier n : ");
         scanf("%d",&n);
